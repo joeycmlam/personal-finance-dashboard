@@ -27,6 +27,7 @@ export const test = baseTest.extend<TestFixtures & TestOptions>({
       if (process.env.CI && process.platform === 'linux')
         args.push('--no-sandbox');
       args.push('--headless');
+      args.push('--isolated');
       if (mcpBrowser)
         args.push(`--browser=${mcpBrowser}`);
       if (options?.args)
