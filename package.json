@@ -1,6 +1,7 @@
 {
   "name": "my-v0-project",
   "version": "0.1.0",
+  "description": "Personal Finance Dashboard - A comprehensive web application for managing and visualizing personal financial data",
   "private": true,
   "scripts": {
     "build": "next build",
