@@ -91,7 +91,7 @@ The test suite uses Playwright MCP with the following configuration:
 
 - **Test Directory**: `./tests`
 - **Base URL**: `http://localhost:3000`
-- **Browsers**: Chromium, Firefox, WebKit, Mobile Chrome, Mobile Safari
+- **Browsers**: WebKit, Mobile Chrome
 - **Parallel Execution**: Enabled for faster test runs
 - **Retries**: 2 retries in CI environment
 - **Trace**: Enabled on first retry for debugging
@@ -129,8 +129,8 @@ Tests ensure compliance with WCAG 2.1 AA standards including:
 ## Browser Support
 
 Tests run on:
-- Desktop: Chrome, Firefox, Safari
-- Mobile: Chrome (Pixel 5), Safari (iPhone 12)
+- Desktop: Safari (WebKit)
+- Mobile: Chrome (Pixel 5)
 - Various viewport sizes from 375px to 1920px
 
 ## Continuous Integration
